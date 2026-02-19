@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/main.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/main.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/main.cpp",
+  "output": "CMakeFiles/les_1.dir/main.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/ActiveEdgeTable.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/ActiveEdgeTable.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/ActiveEdgeTable.cpp",
+  "output": "CMakeFiles/les_1.dir/ActiveEdgeTable.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/DrawTool.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/DrawTool.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/DrawTool.cpp",
+  "output": "CMakeFiles/les_1.dir/DrawTool.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/EdgeTableRow.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/EdgeTableRow.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/EdgeTableRow.cpp",
+  "output": "CMakeFiles/les_1.dir/EdgeTableRow.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/Polygon.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Polygon.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Polygon.cpp",
+  "output": "CMakeFiles/les_1.dir/Polygon.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/Line.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Line.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Line.cpp",
+  "output": "CMakeFiles/les_1.dir/Line.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/RGBColor.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/RGBColor.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/RGBColor.cpp",
+  "output": "CMakeFiles/les_1.dir/RGBColor.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/Point.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Point.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Point.cpp",
+  "output": "CMakeFiles/les_1.dir/Point.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/EdgeTable.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/EdgeTable.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/EdgeTable.cpp",
+  "output": "CMakeFiles/les_1.dir/EdgeTable.cpp.o"
+},
+{
+  "directory": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/les_1.dir/Edge.cpp.o -c \"/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Edge.cpp\"",
+  "file": "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/Edge.cpp",
+  "output": "CMakeFiles/les_1.dir/Edge.cpp.o"
+}
+]
