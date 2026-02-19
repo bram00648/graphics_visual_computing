@@ -61,18 +61,18 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Z0Yb1N"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Z0Yb1N"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8VWZKI"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8VWZKI"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Z0Yb1N'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8VWZKI'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_8b2e1
-        [1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_fa2a8
+        [1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/gcc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -82,8 +82,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2e1.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b2e1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8p2A7G.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa2a8.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fa2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLCp4Jh.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -100,13 +100,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2e1.dir/'
-         as -v --64 -o CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o /tmp/cc8p2A7G.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa2a8.dir/'
+         as -v --64 -o CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o /tmp/ccLCp4Jh.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/gcc  -v  -rdynamic CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o -o cmTC_8b2e1   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/gcc  -v  -rdynamic CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o -o cmTC_fa2a8   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/gcc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -119,9 +119,9 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8b2e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b2e1.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHDy9if.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8b2e1 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8b2e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b2e1.'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fa2a8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fa2a8.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cceBJgN9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fa2a8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fa2a8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fa2a8.'
         
       exitCode: 0
   -
@@ -155,10 +155,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Z0Yb1N']
+        ignore line: [Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8VWZKI']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_8b2e1]
-        ignore line: [[1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_fa2a8]
+        ignore line: [[1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/gcc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -168,8 +168,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2e1.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b2e1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8p2A7G.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa2a8.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fa2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLCp4Jh.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -186,13 +186,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2e1.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o /tmp/cc8p2A7G.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa2a8.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o /tmp/ccLCp4Jh.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/gcc  -v  -rdynamic CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o -o cmTC_8b2e1   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/gcc  -v  -rdynamic CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o -o cmTC_fa2a8   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -205,13 +205,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8b2e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b2e1.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHDy9if.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8b2e1 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fa2a8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fa2a8.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cceBJgN9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fa2a8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccHDy9if.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cceBJgN9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -230,7 +230,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8b2e1] ==> ignore
+          arg [cmTC_fa2a8] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -242,7 +242,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_8b2e1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_fa2a8.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -282,18 +282,18 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8ttkX4"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8ttkX4"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-EJUY1y"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-EJUY1y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8ttkX4'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-EJUY1y'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_b128f
-        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6f651
+        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -303,8 +303,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b128f.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b128f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpaDGrI.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f651.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6f651.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLw4EjJ.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -325,13 +325,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 7896445e4990772fdae9dc0659a99266
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b128f.dir/'
-         as -v --64 -o CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpaDGrI.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f651.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLw4EjJ.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/g++  -v  -rdynamic CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b128f   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/g++  -v  -rdynamic CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6f651   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -344,9 +344,9 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b128f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b128f.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoYxjde.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b128f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b128f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b128f.'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6f651' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6f651.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccshHvR5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6f651 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6f651' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6f651.'
         
       exitCode: 0
   -
@@ -386,10 +386,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-8ttkX4']
+        ignore line: [Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-EJUY1y']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_b128f]
-        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_6f651]
+        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -399,8 +399,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b128f.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b128f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpaDGrI.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f651.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6f651.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLw4EjJ.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -421,13 +421,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 7896445e4990772fdae9dc0659a99266]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b128f.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpaDGrI.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f651.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLw4EjJ.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/g++  -v  -rdynamic CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b128f   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/g++  -v  -rdynamic CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6f651   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -440,13 +440,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b128f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b128f.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoYxjde.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b128f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6f651' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6f651.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccshHvR5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6f651 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccoYxjde.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccshHvR5.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -465,7 +465,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b128f] ==> ignore
+          arg [cmTC_6f651] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -477,7 +477,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_b128f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_6f651.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -513,19 +513,19 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-HyqOky"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-HyqOky"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Izl1Qv"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Izl1Qv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-HyqOky'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Izl1Qv'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_64e07
-        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_64e07.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-HyqOky/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_64e07.dir/CheckFunctionExists.c.o -o cmTC_64e07  /usr/lib/x86_64-linux-gnu/libX11.so  /usr/lib/x86_64-linux-gnu/libXext.so && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_48ca1
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_48ca1.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Izl1Qv/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_48ca1.dir/CheckFunctionExists.c.o -o cmTC_48ca1  /usr/lib/x86_64-linux-gnu/libX11.so  /usr/lib/x86_64-linux-gnu/libXext.so && :
         
       exitCode: 0
   -
@@ -537,19 +537,19 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TWmt3K"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TWmt3K"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-CnbUZy"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-CnbUZy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TWmt3K'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-CnbUZy'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_6006c
-        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_6006c.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TWmt3K/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_6006c.dir/CheckFunctionExists.c.o -o cmTC_6006c   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2a5a3
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_2a5a3.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-CnbUZy/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_2a5a3.dir/CheckFunctionExists.c.o -o cmTC_2a5a3   && :
         
       exitCode: 0
   -
@@ -561,19 +561,19 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Jy0eox"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Jy0eox"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-gJywua"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-gJywua"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Jy0eox'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-gJywua'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_6e6da
-        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_6e6da.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-Jy0eox/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_6e6da.dir/CheckFunctionExists.c.o -o cmTC_6e6da   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_56f3e
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_56f3e.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-gJywua/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_56f3e.dir/CheckFunctionExists.c.o -o cmTC_56f3e   && :
         
       exitCode: 0
   -
@@ -585,19 +585,19 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-E3Msy7"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-E3Msy7"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-lEuSIQ"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-lEuSIQ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-E3Msy7'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-lEuSIQ'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_19088
-        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_19088.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-E3Msy7/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_19088.dir/CheckFunctionExists.c.o -o cmTC_19088   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_3bafe
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_3bafe.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-lEuSIQ/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_3bafe.dir/CheckFunctionExists.c.o -o cmTC_3bafe   && :
         
       exitCode: 0
   -
@@ -609,19 +609,19 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-2rG7cA"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-2rG7cA"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-NcY5eE"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-NcY5eE"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-2rG7cA'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-NcY5eE'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_c44b7
-        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_c44b7.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-2rG7cA/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_c44b7.dir/CheckFunctionExists.c.o -o cmTC_c44b7   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_fff2a
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_fff2a.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-NcY5eE/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_fff2a.dir/CheckFunctionExists.c.o -o cmTC_fff2a   && :
         
       exitCode: 0
   -
@@ -633,19 +633,19 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-FEB6Wm"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-FEB6Wm"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-bd3lVw"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-bd3lVw"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-FEB6Wm'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-bd3lVw'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_c942d
-        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_c942d.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-FEB6Wm/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_c942d.dir/CheckFunctionExists.c.o -o cmTC_c942d  -lICE && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_dc53c
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_dc53c.dir/CheckFunctionExists.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-bd3lVw/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_dc53c.dir/CheckFunctionExists.c.o -o cmTC_dc53c  -lICE && :
         
       exitCode: 0
   -
@@ -659,19 +659,19 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-nVYq9G"
-      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-nVYq9G"
+      source: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TCE9bS"
+      binary: "/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TCE9bS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-nVYq9G'
+        Change Dir: '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TCE9bS'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_f7c84
-        [1/2] /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f7c84.dir/src.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-nVYq9G/src.c'
-        [2/2] : && /usr/bin/gcc  -rdynamic CMakeFiles/cmTC_f7c84.dir/src.c.o -o cmTC_f7c84   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f411c
+        [1/2] /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f411c.dir/src.c.o -c '/media/bram/E622C4CB22C4A1C3/Users/flyer/Downloads/LOGS_VERY_IMPORTANT/personal/school stuffs TI en andere backup/informatica/jaar1_schakeljaar/sem 2/graphics visual computing/graphics_visual_computing/les1/framework/build/CMakeFiles/CMakeScratch/TryCompile-TCE9bS/src.c'
+        [2/2] : && /usr/bin/gcc  -rdynamic CMakeFiles/cmTC_f411c.dir/src.c.o -o cmTC_f411c   && :
         
       exitCode: 0
 ...

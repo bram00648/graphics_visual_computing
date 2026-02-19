@@ -1,7 +1,7 @@
 #include "DrawTool.h"
 #include "EdgeTable.h"
 #include "ActiveEdgeTable.h"
-
+#include "Point.h"
 
 void DrawTool::PutPixel(int x, int y, cg::RGBColor color)
 {
@@ -16,11 +16,50 @@ void DrawTool::PutPixel(int x, int y, cg::RGBColor color)
 void DrawTool::DrawDDALine(cg::Line line, cg::RGBColor color)
 {
     /* TODO */
+    float x {(float) line.x0()};
+    float y {(float) line.y0()};
+    float m {};
+    int dx {line.x1() - line.x0()};
+    int dy {line.y1() - line.y0()};
+    float xInc {0};
+    float yInc {0};
+
+    int steps = abs(dx) > abs(dy) ? abs(dx) : abs(dy);
+
+    if (steps != 0) {
+        xInc= (float) dx / steps;
+        yInc = (float) dy / steps;
+    } 
+    
+
+    for (int i = 0; i < steps; i++) {
+        PutPixel((int) round(x), (int) round(y), color);
+        x += xInc;
+        y += yInc;
+    }
 }
 
 void DrawTool::DrawMidPointLine(cg::Line line, cg::RGBColor color)
 {
     /* TODO */
+    int dy {line.y1() - line.y0()};
+    int dx {line.x1() - line.x0()};
+    int d  {dy * 2 - dx};
+    int incrE {dy*2};
+    int incrNE {(dy - dx) * 2};
+    int x {line.x0()};
+    int y {line.y0()};
+    PutPixel(x, y, color);
+    while (x < line.x1()) {
+        if (d<=0)
+            d += incrE;
+        else {
+            d += incrNE;
+            y ++;
+        }
+        x++;
+        PutPixel(x, y, color);
+    }
 }
 
 void DrawTool::DrawAllCirclePoints(cg::Point point, cg::Point center, cg::RGBColor color)
