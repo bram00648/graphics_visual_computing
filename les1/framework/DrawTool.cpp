@@ -41,24 +41,46 @@ void DrawTool::DrawDDALine(cg::Line line, cg::RGBColor color)
 
 void DrawTool::DrawMidPointLine(cg::Line line, cg::RGBColor color)
 {
-    /* TODO */
-    int dy {line.y1() - line.y0()};
-    int dx {line.x1() - line.x0()};
-    int d  {dy * 2 - dx};
-    int incrE {dy*2};
-    int incrNE {(dy - dx) * 2};
-    int x {line.x0()};
-    int y {line.y0()};
-    PutPixel(x, y, color);
-    while (x < line.x1()) {
-        if (d<=0)
-            d += incrE;
-        else {
-            d += incrNE;
-            y ++;
+    int x0 = line.x0();
+    int y0 = line.y0();
+    int x1 = line.x1();
+    int y1 = line.y1();
+
+    int dx = std::abs(x1 - x0);
+    int dy = std::abs(y1 - y0);
+
+    int sx = (x0 < x1) ? 1 : -1;
+    int sy = (y0 < y1) ? 1 : -1;
+
+    bool steep = dy > dx;
+
+    if (steep) {
+        std::swap(x0, y0);
+        std::swap(x1, y1);
+        std::swap(dx, dy);
+        std::swap(sx, sy);
+    }
+
+    int D = 2*dy - dx;
+
+    int x = x0;
+    int y = y0;
+
+    for (int i = 0; i <= dx; i++) {
+
+        if (steep)
+            PutPixel(y, x, color);
+        else
+            PutPixel(x, y, color);
+
+        if (D >= 0) {
+            y += sy;
+            D += 2*(dy - dx);
+        } else {
+            D += 2*dy;
         }
-        x++;
-        PutPixel(x, y, color);
+
+        x += sx;
     }
 }
 
@@ -77,6 +99,21 @@ void DrawTool::DrawAllCirclePoints(cg::Point point, cg::Point center, cg::RGBCol
 void DrawTool::DrawMidPointCircle(cg::Point center, int radius, cg::RGBColor color)
 {
     /* TODO */
+    int x {0};
+    int y {radius};
+    int D {1- radius};
+    DrawAllCirclePoints(cg::Point(x, y), center, color);
+    while ( x < y ) {
+        if(D<0)
+            D += x*2+3;
+        else {
+            D += (x-y) * 2 + 5;
+            y--;
+        }
+        x++;
+        DrawAllCirclePoints(cg::Point(x, y), center, color);
+
+    }
 }
 
 void DrawTool::FillPolygon(cg::Polygon polygon, cg::RGBColor color)
