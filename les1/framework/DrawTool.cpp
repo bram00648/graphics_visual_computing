@@ -31,8 +31,8 @@ void DrawTool::DrawDDALine(cg::Line line, cg::RGBColor color)
         yInc = (float) dy / steps;
     } 
     
-
-    for (int i = 0; i < steps; i++) {
+    // kleiner of gelijk aan anders mis je het eind punt in dit algoritme
+    for (int i = 0; i <= steps; i++) {
         PutPixel((int) round(x), (int) round(y), color);
         x += xInc;
         y += yInc;
