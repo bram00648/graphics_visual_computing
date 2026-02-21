@@ -101,19 +101,20 @@ void DrawTool::DrawMidPointCircle(cg::Point center, int radius, cg::RGBColor col
     /* TODO */
     int x {0};
     int y {radius};
-    int D {1- radius};
+    int D {3 - (2 * radius)};
+
     DrawAllCirclePoints(cg::Point(x, y), center, color);
-    while ( x < y ) {
-        if(D<0)
-            D += x*2+3;
+    while (x <= y ) {
+        if (D < 0)
+            D = D + 4 * x + 6;
         else {
-            D += (x-y) * 2 + 5;
-            y--;
+            D = D + 4 * (x - y) + 10;
+            y = y-1;
         }
         x++;
         DrawAllCirclePoints(cg::Point(x, y), center, color);
-
     }
+
 }
 
 void DrawTool::FillPolygon(cg::Polygon polygon, cg::RGBColor color)
