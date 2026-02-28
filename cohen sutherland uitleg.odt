@@ -1,0 +1,25 @@
+﻿cohen suther land: region codes gebruikeno m lijn endpoitns te  gaan vinden.
+1001	1000	1010
+0001	0000	0010
+0101	0100	0110
+stel je hebt hier een lijn die door 0000 naar 1001 gaat met punt D in 1001 en punt A in 0000
+dan gaat die intersecten op B en C, omdat die lijn door 1000 moet gaan
+het punt waar A is heeft als outcode: 0000
+het punt waar D is heeft als outcode: 1001.
+het algoritme maakt gebruik van "divide en concquer"
+lijn segmenten worden continue gechecked of ze binnen de window zitten en of ze accepted of niet kunnen worden.
+region codes bestaan uit de 4 laagste bits van de variabele (?)
+bit 4 3 2 1 
+     0 0 0 0
+1: left
+2: right
+3: bottom
+4: top
+op die manier kan je kijken, welke bits staan er aan, hieruit kun je halen waar je zit, bv top left heeft dan 1001
+er zijn 3 gevallen
+1: De lijn zit er volledig in, de lijn is triviaal juist en wordt getekent.
+2: de lijn zit er volledig buiten, de lijn is triviaal fout en wordt niet getekent.( beide punten zitten dus buiten de clipping window (0000)
+3: de lijn zit deels/volledig buiten 2 kruisende edges en gaat hierdoor deels geweigerd worden. het kan dus ook zijn dat de lijn over verschillende delen gaat ook buiten 0000
+
+
+
