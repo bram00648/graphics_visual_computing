@@ -364,39 +364,70 @@ void DrawTool::Draw()
 
 bool DrawTool::CohenSutherlandClip(cg::Line& line) const
 {
-    float x0 = line.x0(), y0 = line.y0();
-    float x1 = line.x1(), y1 = line.y1();
+    const int LEFT   = 1;
+    const int RIGHT  = 2;
+    const int BOTTOM = 4;
+    const int TOP    = 8;
 
-    while (true) {
-        OutCode c0 = CompOutCode((int)x0, (int)y0);
-        OutCode c1 = CompOutCode((int)x1, (int)y1);
+    float x0 = line.x0();
+    float y0 = line.y0();
+    float x1 = line.x1();
+    float y1 = line.y1();
 
-        if ((c0.all | c1.all) == 0) {
-            line.SetData(cg::Point((int)x0, (int)y0), cg::Point((int)x1, (int)y1));
+    int outcode0 = CompOutCode(x0, y0).all;
+    int outcode1 = CompOutCode(x1, y1).all;
+
+    while (true)
+    {
+        // Trivial accept
+        if ((outcode0 | outcode1) == 0)
+        {
+            line.SetData(cg::Point(x0, y0), cg::Point(x1, y1));
             return true;
         }
-        if (c0.all & c1.all)
+
+        // Trivial reject
+        if (outcode0 & outcode1)
+        {
             return false;
-
-        OutCode outside = c0.all ? c0 : c1;
-        float x, y;
-
-        if (outside.top) {
-            x = x0 + (x1 - x0) * (ClipTop() - y0) / (y1 - y0);
-            y = ClipTop();
-        } else if (outside.bottom) {
-            x = x0 + (x1 - x0) * (ClipBottom() - y0) / (y1 - y0);
-            y = ClipBottom();
-        } else if (outside.right) {
-            y = y0 + (y1 - y0) * (ClipRight() - x0) / (x1 - x0);
-            x = ClipRight();
-        } else {
-            y = y0 + (y1 - y0) * (ClipLeft() - x0) / (x1 - x0);
-            x = ClipLeft();
         }
 
-        if (c0.all) { x0 = x; y0 = y; }
-        else        { x1 = x; y1 = y; }
+        float x, y;
+        int outcodeOutside = outcode0 ? outcode0 : outcode1;
+
+        if (outcodeOutside & LEFT)
+        {
+            x = ClipLeft();
+            y = y0 + (y1 - y0) * (x - x0) / (x1 - x0);
+        }
+        else if (outcodeOutside & RIGHT)
+        {
+            x = ClipRight();
+            y = y0 + (y1 - y0) * (x - x0) / (x1 - x0);
+        }
+        else if (outcodeOutside & BOTTOM)
+        {
+            y = ClipBottom();
+            x = x0 + (x1 - x0) * (y - y0) / (y1 - y0);
+        }
+        else // TOP
+        {
+            y = ClipTop();
+            x = x0 + (x1 - x0) * (y - y0) / (y1 - y0);
+        }
+
+        if (outcodeOutside == outcode0)
+        {
+            x0 = x;
+            y0 = y;
+            outcode0 = CompOutCode(x0, y0).all;
+        }
+        else
+        {
+            x1 = x;
+            y1 = y;
+            outcode1 = CompOutCode(x1, y1).all;
+        }
     }
 }
 
