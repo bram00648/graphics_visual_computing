@@ -23,3 +23,45 @@ er zijn 3 gevallen
 
 
 
+
+cyrus beck, algoritme voor clipping met van lijnen te doen met en viewing window dat niet gewoon een vierkant is tegenover bij cohen sutherland waar dit wel zo is.
+
+parametrische formule is
+P(t) = p1 + (p2-p1)t waar 0 is kleiner of gelijk aan t kleiner of gelijk aan 1
+anders
+if t = 0 : P(t) = P1
+t = 1: P: P(t) = P2
+n.(P(t) -f), hier uit haal je waar uw punt zit, binnen de regio, buiten de regio of op de rand.
+als dit kleiner dan nul is, dan is P(t) -f exterieur
+anders is die P(t) -f er binnen
+anders als die 0 is, dan is P(t) -f zit die op de rand
+
+dus (overal waar n en D en W staat kan je i zetten om te zeggen welke rand het moet zijn to enm et n randen)
+n.(p1 + (p2 - p1)t -f) = 0
+= n.(p1 -f) + n.(p2-p1)t
+p1-f hier is uw weight factor W
+en uw p2-p1 is uw distance parameter D
+= n.W + n.Dt = 0
+n.Dt = -n.W
+t = -n.W/n.D
+
+nu heb je die n.D als die kleiner dan nul
+	dan heb je tU (upper limit)
+anders groter:
+	dan heb je tL (lower limit)
+dus je hebt een set van t waardes
+als die t niet in de range van nul kleiner dan t kleiner tdan 1: je negeert
+anders als je tu values hebt, kies je de kleinere
+bij tL kies je altijd de grotere
+deze substitute je in P(t) = ?
+dit zijn uw intercepting punten
+
+sutherland hodgeman clipping: voor het clippen van figuren zoals een polygoon.
+je hebt meerdere cases
+1: je hebt bv een lijn die van buiten naar b innnen uw window gaat, dan moet je gewoon uw intersectie vinden van die lijn met uw window (start van buiten naar binnen)
+2: de lijn zit er volledig i: triviaal
+3: hier start van binnen naar buiten de window ook intersect vinden
+4: beide punten erbuiten, triviaal
+proces:
+je start bij de linkse border van uw window met  uw eerste eidge van uw polygoon, dat een lijn is dus, je kijkt gewoon op die lijn eigenlijk.
+

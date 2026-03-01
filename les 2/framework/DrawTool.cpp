@@ -433,13 +433,128 @@ bool DrawTool::CohenSutherlandClip(cg::Line& line) const
 
 bool DrawTool::CyrusBeckClip(cg::Line& line) const
 {
-    /* TODO */
+    float x0 = line.x0();
+    float y0 = line.y0();
+    float x1 = line.x1();
+    float y1 = line.y1();
+
+    float dx = x1 - x0;
+    float dy = y1 - y0;
+
+    float tE = 0.0f;
+    float tL = 1.0f;
+
+    // Voor een rechthoek heb je 4 randen
+    for (int i = 0; i < 4; i++)
+    {
+        float nx, ny;      // normaalvector
+        float pe_x, pe_y;  // punt op rand
+
+        if (i == 0) { // LEFT
+            nx = -1; ny = 0;
+            pe_x = ClipLeft(); pe_y = 0;
+        }
+        else if (i == 1) { // RIGHT
+            nx = 1; ny = 0;
+            pe_x = ClipRight(); pe_y = 0;
+        }
+        else if (i == 2) { // BOTTOM
+            nx = 0; ny = -1;
+            pe_x = 0; pe_y = ClipBottom();
+        }
+        else { // TOP
+            nx = 0; ny = 1;
+            pe_x = 0; pe_y = ClipTop();
+        }
+
+        float numerator   = nx * (pe_x - x0) + ny * (pe_y - y0);
+        float denominator = nx * dx + ny * dy;
+
+        if (denominator == 0)
+        {
+            if (numerator < 0)
+                return false; // lijn volledig buiten
+            else
+                continue;     // parallel en binnen
+        }
+
+        float t = numerator / denominator;
+
+        if (denominator < 0) // entering
+        {
+            if (t > tE)
+                tE = t;
+        }
+        else // leaving
+        {
+            if (t < tL)
+                tL = t;
+        }
+
+        if (tE > tL)
+            return false;
+    }
+
+    // nieuwe punten berekenen
+    float newX0 = x0 + tE * dx;
+    float newY0 = y0 + tE * dy;
+    float newX1 = x0 + tL * dx;
+    float newY1 = y0 + tL * dy;
+
+    line.SetData(cg::Point(newX0, newY0), cg::Point(newX1, newY1));
+
     return true;
 }
-
 cg::Polygon DrawTool::SutherlandHodgemanPolygonClip(cg::Polygon polygon) const
 {
-    /* TODO */
+    cg::Polygon newPolygon;
+
+    // Voor elke clipzijde (4 zijden)
+    for (int i = 0; i < 4; i++)
+    {
+        newPolygon.Clear();
+
+        if (polygon.GetSize() == 0)
+            break;
+
+        // initialisatie: firstPoint = laatste punt van de polygon
+        cg::Point firstPoint = polygon.GetPoint(polygon.GetSize()-1);
+
+        // loop over alle punten
+        for (size_t j = 0; j < polygon.GetSize(); j++)
+        {
+            cg::Point secondPoint = polygon.GetPoint(j);
+
+            int clipValue = (i == 0) ? ClipBottom() : (i == 1) ? ClipRight() : (i == 2) ? ClipTop() : ClipLeft();
+            bool firstInside  = Inside(firstPoint, i, clipValue);
+            bool secondInside = Inside(secondPoint, i, clipValue);
+
+            if (firstInside && secondInside)
+            {
+                // beide binnen
+                newPolygon.AddPoint(secondPoint);
+            }
+
+            else if (!firstInside && secondInside)
+            {
+                // buiten → binnen
+                cg::Point intersection = GetIntersection(firstPoint, secondPoint, i, clipValue);
+                newPolygon.AddPoint(intersection);
+                newPolygon.AddPoint(secondPoint);
+            }
+            else if (firstInside && !secondInside)
+            {
+                // binnen → buiten
+                cg::Point intersection = GetIntersection(firstPoint, secondPoint, i, clipValue);
+                newPolygon.AddPoint(intersection);
+            }
+
+            firstPoint = secondPoint;
+        }
+
+        polygon = newPolygon;
+    }
+
     return polygon;
 }
 
