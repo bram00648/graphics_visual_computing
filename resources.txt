@@ -1,6 +1,9 @@
+
 DDA algoritme: https://www.youtube.com/watch?v=W5P8GlaEOSI
 midpoint algoritme: https://www.youtube.com/watch?v=CceepU1vIKo
 bresenham midpoint circle: https://www.youtube.com/watch?v=rOocMVYI6Zs&t=3313s
 bresenham line drawing (midpoint): https://www.youtube.com/watch?v=RGB-wlatStc
 cyrus beck clipping:https://www.youtube.com/watch?v=AHiuIYe1z0k
 cohen sutherland clipping: https://www.youtube.com/watch?v=NobLtrXvh0Q
+mvp:https://www.youtube.com/watch?v=-tonZsbHty8
+    https://www.youtube.com/watch?v=svKVqROlVSg
