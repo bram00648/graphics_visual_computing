@@ -15,6 +15,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <map>
 
 using namespace cimg_library;
 
@@ -41,6 +42,7 @@ private:
 
     std::stack<glm::mat4> m_matrixStack;
 
+
     void PushMatrix();
     void PopMatrix();
 
@@ -48,6 +50,8 @@ private:
 
     CImg<unsigned char> m_canvas;
     CImgDisplay m_display;
+
+    std::map<int, Object> m_objects;
 
     void DrawClippingWindow();
     void ClipUp();

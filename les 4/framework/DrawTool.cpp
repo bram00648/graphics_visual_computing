@@ -353,10 +353,14 @@ void DrawTool::Draw()
     Draw3DLine(glm::vec4(0, 0, -axisLength, 1), glm::vec4(0, 0, axisLength, 1), cg::RGBColor(0, 0, 255));
 
 
-    std::map<int, Object> objects = FileLoader::LoadObjects("objects.txt");
+    m_objects = FileLoader::LoadObjects("../objects.txt");
+    std::cout << "Loaded objects: " << m_objects.size() << std::endl;
 
-    //DrawObjectFromList(0);
-    //DrawObjectFromList(1);
+    m_model = glm::scale(glm::mat4(1.0f), glm::vec3(50.0f, 50.0f, 50.0f));
+
+
+    DrawObjectFromList(0);
+    DrawObjectFromList(1);
 
     //DrawBezierFromList(0);
 
@@ -799,11 +803,18 @@ void DrawTool::Reset()
 void DrawTool::DrawObjectFromList(int index)
 {
     /* TODO */
+    Object object = m_objects[index];
+    for (auto & face : object.faces) {
+        DrawFace(face);
+    }
 }
 
 void DrawTool::DrawFace(Face face)
 {
     /* TODO */
+    Draw3DLine(face.vertices[0], face.vertices[1], cg::RGBColor(0, 255, 0));
+    Draw3DLine(face.vertices[1], face.vertices[2], cg::RGBColor(0, 255, 0));
+    Draw3DLine(face.vertices[2], face.vertices[0], cg::RGBColor(0, 255, 0));
 }
 
 cg::Point DrawTool::ObjectToScreen(glm::vec4 objectPoint) const {

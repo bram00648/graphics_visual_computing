@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.5)
 project(framework)
 
 set(CMAKE_CXX_STANDARD 11)
+
+set(glm_DIR includes/glm/cmake/glm) # if necessary
+find_package(glm REQUIRED)
 
 if(NOT WIN32)
     FIND_PACKAGE(X11)
@@ -15,5 +18,5 @@ if(X11_FOUND)
 endif()
 
 add_executable(framework computer_graphics.cpp CImg.h ActiveEdgeTable.cpp ActiveEdgeTable.h DrawTool.cpp DrawTool.h Point.h RGBColor.h Line.h EdgeTableRow.h EdgeTableRow.cpp Polygon.h Polygon.cpp Line.cpp RGBColor.cpp Point.cpp EdgeTable.cpp EdgeTable.h Edge.cpp FileLoader.h FileLoader.cpp ParamCubeCurve.cpp ParamCubeCurve.h Bezier.cpp Bezier.h)
-target_include_directories(framework PRIVATE includes)
-target_link_libraries(framework PRIVATE ${SYSTEM_LIBS} Threads::Threads)
+target_compile_definitions(framework PRIVATE GLM_ENABLE_EXPERIMENTAL)
+target_link_libraries(framework glm::glm ${SYSTEM_LIBS} Threads::Threads)
