@@ -5,6 +5,7 @@
 #include "CImg.h"
 #include "Line.h"
 #include "FileLoader.h"
+#include "Bezier.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -52,6 +53,7 @@ private:
     CImgDisplay m_display;
 
     std::map<int, Object> m_objects;
+    std::map<int, Bezier> m_beziers;
 
     void DrawClippingWindow();
     void ClipUp();
