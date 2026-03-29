@@ -8,6 +8,7 @@
 #include "CImg.h"
 #include "RGBColor.h"
 #include "Shape.h"
+#include "Scene.h"
 
 using namespace cimg_library;
 
@@ -15,6 +16,7 @@ class RayTracer {
 private:
     int m_width;
     int m_height;
+    Scene m_scene;
 
     CImg<unsigned char> m_canvas;
     CImgDisplay m_display;
@@ -22,8 +24,7 @@ private:
     void put_pixel(int x, int y, RGBColor color);
 
 public:
-    RayTracer(int width, int height) : m_width(width), m_height(height), m_canvas(width, height, 1, 3, false), m_display(m_canvas, "Raytracer"){};
-
+    RayTracer(int width, int height);
     void trace_view();
     void show();
 };

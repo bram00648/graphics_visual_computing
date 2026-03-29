@@ -3,19 +3,28 @@ project(raytrace_framework)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(glm_DIR includes/glm/cmake/glm) # if necessary
+# glm
+set(glm_DIR includes/glm/cmake/glm) # indien nodig
 find_package(glm REQUIRED)
 
+# X11 en Threads (Linux)
 if(NOT WIN32)
-    FIND_PACKAGE(X11)
-    FIND_PACKAGE(Threads REQUIRED)
+    find_package(X11 REQUIRED)
+    find_package(Threads REQUIRED)
 endif()
 
-if(X11_FOUND)
-    link_directories(${X11_LIB_DIRS})
-    include_directories(${X11_INCLUDE_DIR})
-    SET( SYSTEM_LIBS ${SYSTEM_LIBS} ${X11_LIBRARIES} )
-endif()
+# executable met alle cpp files
+add_executable(raytrace_framework
+    main.cpp
+    RayTracer.cpp
+    Sphere.cpp
+    Scene.cpp
+    Shape.cpp
+)
 
-add_executable(raytrace_framework main.cpp CImg.h RayTracer.cpp RayTracer.h RGBColor.h Shape.cpp Shape.h)
-target_link_libraries(raytrace_framework glm::glm)
+# libraries linken
+target_link_libraries(raytrace_framework
+    glm::glm
+    ${X11_LIBRARIES}
+    Threads::Threads
+)

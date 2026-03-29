@@ -7,6 +7,8 @@
 
 #include <glm/glm.hpp>
 #include "RGBColor.h"
+#include "Ray.h"
+#include "RayHit.h"
 
 struct Material {
     RGBColor color;
@@ -14,6 +16,7 @@ struct Material {
 
 
 class Shape {
+    
 protected:
     glm::vec3 m_pos;
 
@@ -24,6 +27,7 @@ protected:
     Material m_material;
 
 public:
+    virtual ~Shape() {}
     Shape(glm::vec3 pos, Material material) : m_pos(pos), m_material(material), m_xrot{0.0, 0.0, 0.0}, m_yrot{0.0, 0.0, 0.0}, m_zrot{0.0, 0.0, 0.0} {};
 
     void set_up(glm::vec3 up);
@@ -35,6 +39,8 @@ public:
     glm::vec3 get_pos() const {
         return m_pos;
     }
+
+    virtual RayHit get_intersection(const Ray &ray) const = 0;
 };
 
 
