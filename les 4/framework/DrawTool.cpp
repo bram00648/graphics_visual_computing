@@ -1,6 +1,8 @@
 #include "DrawTool.h"
 #include "EdgeTable.h"
 #include "ActiveEdgeTable.h"
+#include "FileLoader.h"
+#include "RGBColor.h"
 
 #include <iostream>
 
@@ -362,7 +364,9 @@ void DrawTool::Draw()
     DrawObjectFromList(0);
     DrawObjectFromList(1);
 
-    //DrawBezierFromList(0);
+    m_beziers = FileLoader::LoadCurves("../objects.txt");
+
+    DrawBezierFromList(0);
 
 }
 
@@ -825,5 +829,17 @@ cg::Point DrawTool::ObjectToScreen(glm::vec4 objectPoint) const {
 }
 
 void DrawTool::DrawBezierFromList(int index) {
-    /* TODO */
+    Bezier& bezier = m_beziers[index];
+    bezier.iterate();
+
+    int n = bezier.PointCount();
+    for (int i = 0; i < n - 1; i++) {
+        glm::vec3 p0 = bezier.GetPoint(i);
+        glm::vec3 p1 = bezier.GetPoint(i + 1);
+
+        glm::vec4 start(p0, 1.0f);
+        glm::vec4 end(p1, 1.0f);
+
+        Draw3DLine(start, end, cg::RGBColor(255, 50, 100));
+    }
 }
