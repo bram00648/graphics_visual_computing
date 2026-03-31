@@ -812,9 +812,9 @@ void DrawTool::DrawObjectFromList(int index)
 void DrawTool::DrawFace(Face face)
 {
     /* TODO */
-    Draw3DLine(face.vertices[0], face.vertices[1], cg::RGBColor(0, 255, 0));
-    Draw3DLine(face.vertices[1], face.vertices[2], cg::RGBColor(0, 255, 0));
-    Draw3DLine(face.vertices[2], face.vertices[0], cg::RGBColor(0, 255, 0));
+    Draw3DLine(face.vertices[0], face.vertices[1], cg::RGBColor(0, 255, 50));
+    Draw3DLine(face.vertices[1], face.vertices[2], cg::RGBColor(0, 255, 50));
+    Draw3DLine(face.vertices[2], face.vertices[0], cg::RGBColor(0, 255, 50));
 }
 
 cg::Point DrawTool::ObjectToScreen(glm::vec4 objectPoint) const {
