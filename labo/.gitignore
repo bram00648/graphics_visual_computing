@@ -1,0 +1,92 @@
+# CMake build directories
+build/
+cmake-build-*/
+
+# CMake cache and generated files
+# CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+#cmake_install.cmake
+#*.cmake
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Compiled executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# IntelliSense
+*.ipch
+*.opendb
+*.db
+*.db-shm
+*.db-wal
+
+# Test / Coverage
+*.coverage
+*.coveragexml
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE specific
+*.swp
+*.swo
+*~
+.idea/
+*.iml
